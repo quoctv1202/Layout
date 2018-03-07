@@ -1,0 +1,332 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+body{
+    color: #000;
+    font: 400 14px arial;
+	text-align: center;
+	display: block;
+	
+}
+
+#taskbar{
+	height: 30px;
+	border: 2px solid black;
+	text-align: center;
+	font-size: 15px;
+	padding-top: 10px;
+}
+
+.logo{
+	padding-bottom: 10px;
+}
+
+.imglogo{
+	width: 30%;
+	height: 100px;
+	border: 2px solid brown;
+}
+
+.banner{
+	width: 70%;
+	border: 2px solid orange;	
+}
+
+.adv{
+	width: 47%;
+	height: 90%;
+	margin: 2px 4px;
+	border: 2px solid black;
+	float: left;
+}
+
+.header{
+	height: 144px;
+	border: 2px solid black;
+	display: block;
+}
+
+#menu{
+	width: 1000px;
+	height: 20px;
+	margin: 1px auto;
+	border: 2px solid red;
+    padding-bottom: 3px;
+    position: relative;
+    
+}
+
+
+.container{
+	width: 1000px;
+	display: flex;
+	position: relative;
+	margin: 0 auto;	
+	border: 2px solid #021470;
+}
+
+.feature{
+    width: 1000px;
+    position: relative;
+    margin: 3px auto;
+    padding-bottom: 10px;
+    border: 2px solid blue;
+}
+.feature .left{
+	border: 1px solid black;
+	margin: 1px;
+}
+
+.article{
+	width: 510px;
+	padding-right: 9px;
+	height: 412px;
+}
+
+.picture_article{
+	width: 480px;
+	height: 220px;
+	margin-right: 2px auto;
+	margin-left: 8px;
+	border: 1px dotted blue !important;
+}
+
+.feature .article_peek_content{
+	width: 480px;
+	height: 140px;
+	margin-top: 24px;
+	margin-left: 8px;
+	border: 1px dotted blue !important;
+}
+.sub_featured .article{
+	width: 92% !important;
+	height: 80px;
+	margin-bottom: 10px;
+	border: 1px dotted black;
+}
+
+.sub_featured{
+	width: 180px;
+	height: 412px;
+	padding-left: 5px;
+}
+
+.adv_featured{
+	width: 300px;
+	height: 412px;
+	padding-left: 10px;
+}
+
+.ad_feature{
+	width: 270px;
+	margin: 4px;
+	height: 120px;
+	padding-left: 10px;
+	border: 1px dotted black;
+}
+
+.left{
+	float: left !important;
+}
+.right{
+	float: right !important;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.home1{
+	width: 390px;
+	padding-right: 5px;
+}
+
+.home2{
+	width: 440px;
+    padding: 0 10px 0 10px;
+
+}
+
+.home3{
+	width: 170px;
+    padding-left: 9px;
+}
+
+.home_adv{
+	width: 160px;
+	height: 500px;
+}
+
+
+.home_adv_rent{
+	height: 40px;
+}
+
+.home_shop{
+	height: 50px;
+}
+
+.home_gift{
+	height: 40px;
+}
+
+.container .border div{
+	margin: 1px 1px;
+	border: 1px solid #FA0432;
+}
+.container .border{
+	margin: 1px 1px;
+	border: 2px solid #0EC7E2;
+}
+
+.container .border .list_new{
+	margin: 1px 2px;
+	height: 110px;
+	border: 1px dotted black;
+}
+
+.container .list_new .picture{
+	position: relative;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	width: 100px;
+	height: 60px;
+	border: 1px dotted black;
+}
+
+.picture{
+	position: relative;
+	bottom: -15px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	width: 100px;
+	height: 60px;
+	border: 1px dotted black !important;
+}
+
+.video_box{
+	width: 360px;
+	height: 215px;
+	border: 1px dotted blue !important;
+}
+
+.title_video{
+	width: 360px;
+	height: 100px;
+	position: relative;
+	top: 20px;
+	border: 1px dotted blue !important;
+}
+
+.picture_category{
+	width: 350px;
+	height: 210px;
+	margin-right: 2px auto;
+	border: 1px dotted blue !important;
+}
+
+.box_category{
+	height: 370px;
+	padding-right: 5px;
+	width: 100%;
+    margin-bottom: 15px;
+}
+
+.end_container{
+	width: 100%;
+	display: flex;
+	position: relative;
+	margin: 5px auto !important;	
+	border: 1px solid red !important;
+}
+
+.end_container div{
+	border: 1px dotted black !important;
+	margin-right: 12px;
+}
+
+.end_left{
+	width: 30%;
+	/* height: 400px; */
+}
+
+.end_right{
+	width: 280px !important;
+	/* height: 400px; */
+}
+
+.end_item{
+	height: 33px;
+	margin: 2px 1px;
+	border: 1px dotted black;
+}
+
+.most_view{
+	margin: 6px 2px;
+	width: 100%;
+	height: 400px;
+}
+
+.adv2{
+	height: 250px;
+	margin-top: 10px;
+}
+
+.businessinfo{
+	width: 1000px;
+	height: 32px;
+	padding-top: 10px;
+	margin: 5px auto;
+	border: 2px solid red;
+}
+
+.footer{
+	width: 1000px;
+	/* height: 60px; */
+	/* padding-left: 10px; */
+	margin: 10px auto 0;
+	border: 2px solid blue;
+	position: relative;
+	bottom: 2px;
+}
+
+.footer_homepage{
+	width: 98%;
+	height: 30px;
+	margin-bottom: 4px;
+	border: 1px dotted darkblue;
+}
+
+.footer_rowmenu{
+	width: 98%;
+	height: 150px;
+	border: 1px dotted darkblue;
+}
+
+p{
+	text-align: center;
+}
+
+#to_top{
+	width: 30px;
+	height: 30px;
+	text-decoration: none;
+	color: #063BE6;
+	font-size: 30px;
+	position: fixed;
+	bottom: 20px;
+    right: 20px;
+	border: 2px solid #063BE6;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 8px;
+}
+
+#to_top:hover{
+	font-weight: bold;
+	color: #F01C2B;
+}
+
